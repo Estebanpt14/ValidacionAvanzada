@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=demo'
+      - 'POSTGRES_PASSWORD=14_Figaro'
+      - 'POSTGRES_USER=figaro'
+    ports:
+      - '5432:5432'
